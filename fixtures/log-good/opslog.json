@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "ts": "2026-10-11T12:00:00+08:00",
+      "op": "backup",
+      "file": "data.xlsx",
+      "before": "原文件",
+      "after": "已备份",
+      "detail": "hook 自动备份",
+      "backup": ".bak/data.xlsx.bak-20261011-120000.xlsx",
+      "reversible": true
+    },
+    {
+      "ts": "2026-10-11T12:01:00+08:00",
+      "op": "dedupe",
+      "file": "data.xlsx",
+      "sheet": "Sheet1",
+      "before": "100 行",
+      "after": "97 行",
+      "detail": "删除 3 行整行重复，保留首次出现",
+      "backup": ".bak/data.xlsx.bak-20261011-120000.xlsx",
+      "reversible": true
+    }
+  ]
+}

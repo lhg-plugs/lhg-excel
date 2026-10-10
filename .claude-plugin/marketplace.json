@@ -1,0 +1,1 @@
+{"$schema":"https://json.schemastore.org/claude-code-marketplace.json","name":"lhg-plugs","owner":{"name":"刘洪光"},"plugins":[{"description":"表格数据专家：清洗透视图表一条龙（清洗 / 透视图表 / 公式复算 / 操作日志），改数必留痕、可回滚","name":"lhg-excel","source":"./"}]}

@@ -1,0 +1,20 @@
+{
+  "records": [
+    {
+      "ts": "2026-10-11T10:00:00+08:00",
+      "op": "dedupe",
+      "file": "data.xlsx",
+      "before": "100 行",
+      "after": "90 行"
+    },
+    {
+      "ts": "2026-10-11T10:05:00+08:00",
+      "op": "fill_na",
+      "file": "data.xlsx",
+      "before": "空值 20 个",
+      "after": "已填 0",
+      "detail": "用户确认空即 0",
+      "backup": ".bak/not-exist.xlsx"
+    }
+  ]
+}
